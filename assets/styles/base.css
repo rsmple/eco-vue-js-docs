@@ -1,0 +1,41 @@
+@tailwind base;
+
+@layer base {
+  html,
+  body,
+  #app {
+    @apply h-full overscroll-x-none font-sans
+  }
+
+  html {
+    min-height: calc(100% + 1px);
+
+    @apply bg-default text-black-default
+     selection:bg-gray-200 selection:bg-opacity-70 selection:text-[inherit]
+     w-scroll-bar-color-[rgb(209_213_219_/_70%)] w-scroll-bar-color-hover-[rgb(209_213_219)]
+  }
+
+  html.dark {
+    @apply bg-default-dark text-gray-100
+      selection:bg-gray-700 selection:bg-opacity-70 selection:text-[inherit]
+      w-scroll-bar-color-[rgb(55_65_81_/_60%)] w-scroll-bar-color-hover-[rgb(55_65_81)]
+  }
+
+  body {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    forced-color-adjust: exact;
+
+    -webkit-tap-highlight-color: transparent;
+
+    --nav-bar-width: 0rem;
+    --inner-margin: 1.25rem;
+    --modal-wrapper-padding: var(--inner-margin);
+
+    @apply xl:[--nav-bar-width:theme(width.nav-bar-width)]
+  }
+
+  a:focus {
+    outline: none;
+  }
+}
