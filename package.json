@@ -11,9 +11,9 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "@nuxt/devtools": "latest",
+    "@nuxt/devtools": "1.0.6",
     "@nuxtjs/eslint-config-typescript": "12.1.0",
-    "autoprefixer": "^10.4.16",
+    "autoprefixer": "10.4.16",
     "eslint": "8.55.0",
     "eslint-plugin-unused-imports": "3.0.0",
     "nuxt": "3.8.2",
@@ -23,6 +23,6 @@
     "vue-router": "4.2.5"
   },
   "dependencies": {
-    "@whitespots/ui-kit": "^0.3.52"
+    "@texturered/eco-vue-js": "0.3.59"
   }
 }

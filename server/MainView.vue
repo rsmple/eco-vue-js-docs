@@ -11,8 +11,8 @@
 
 <script lang="ts" setup>
 import {ref} from 'vue'
-import WButton from '@whitespots/ui-kit/dist/components/Button/WButton.vue'
-import {SemanticType} from '@whitespots/ui-kit/dist/utils/SemanticType'
+import WButton from '@texturered/eco-vue-js/dist/components/Button/WButton.vue'
+import {SemanticType} from '@texturered/eco-vue-js/dist/utils/SemanticType'
 
 const a = ref(123)
 

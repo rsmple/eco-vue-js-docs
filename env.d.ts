@@ -1,6 +1,6 @@
 /// <reference types="vite/client" />
 /// <reference types="vite-svg-loader" />
-/// <reference types="@whitespots/ui-kit/dist/types/global.d.ts" />
+/// <reference types="@texturered/eco-vue-js/dist/types/global.d.ts" />
 
 declare module '*.vue' {
   import type {defineComponent} from 'vue'

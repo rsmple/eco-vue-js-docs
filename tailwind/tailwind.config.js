@@ -8,11 +8,11 @@ module.exports = {
     './server/**/*.vue',
     './app.vue',
     './error.vue',
-    './node_modules/@whitespots/ui-kit/dist/components/**/*.vue.js',
-    './node_modules/@whitespots/ui-kit/dist/components/**/*.js',
+    './node_modules/@texturered/eco-vue-js/dist/components/**/*.vue.js',
+    './node_modules/@texturered/eco-vue-js/dist/components/**/*.js',
   ],
   presets: [
-    require('@whitespots/ui-kit/tailwind-base/index.cjs'),
+    require('@texturered/eco-vue-js/tailwind-base/index.cjs'),
   ],
   plugins: [
     require('./plugins/default.js'),

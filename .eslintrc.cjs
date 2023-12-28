@@ -25,8 +25,8 @@ module.exports = {
     'no-restricted-imports': [
       'error',
       {
-        name: '@whitespots/ui-kit',
-        message: 'Use import @whitespots/ui-kit/dist/',
+        name: '@texturered/eco-vue-js',
+        message: 'Use import @texturered/eco-vue-js/dist/',
       },
     ],
   },
