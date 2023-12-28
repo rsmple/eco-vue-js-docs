@@ -23,6 +23,6 @@
     "vue-router": "4.2.5"
   },
   "dependencies": {
-    "@texturered/eco-vue-js": "0.3.59"
+    "@texturered/eco-vue-js": "0.3.63"
   }
 }
