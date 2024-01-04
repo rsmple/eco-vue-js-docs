@@ -22,6 +22,8 @@ module.exports = {
     'default-case-last': 'off',
     '@typescript-eslint/no-unused-vars': ['error', {vars: 'all', args: 'none', ignoreRestSiblings: false}],
     'no-console': ['warn'],
+    curly: ['error', 'multi'],
+    'arrow-parens': ['error', 'as-needed'],
     'no-restricted-imports': [
       'error',
       {

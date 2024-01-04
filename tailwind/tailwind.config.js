@@ -5,7 +5,8 @@ module.exports = {
   darkMode: 'class',
   content: [
     './components/**/*.{js,vue,ts}',
-    './server/**/*.vue',
+    './pages/**/*.vue',
+    './layouts/**/*.vue',
     './app.vue',
     './error.vue',
     './node_modules/@texturered/eco-vue-js/dist/components/**/*.vue.js',
