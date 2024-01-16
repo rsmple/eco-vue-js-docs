@@ -26,7 +26,6 @@
 <script lang="ts" setup>
 import WHeaderBar from 'eco-vue-js/dist/components/HeaderBar/WHeaderBar.vue'
 import {eventEmitter} from '@/utils/EventEmitter'
-import {useFilterString} from '@/components/Filter/useFilterString'
 
 const SEARCH_KEY = 'search'
 

@@ -26,7 +26,5 @@
 import WNavItemTransition from 'eco-vue-js/dist/components/Nav/WNavItemTransition.vue'
 import WNavItem from 'eco-vue-js/dist/components/Nav/WNavItem.vue'
 import WNavItemExpand from 'eco-vue-js/dist/components/Nav/WNavItemExpand.vue'
-import NavBar from '@/components/NavBar/NavBar.vue'
-import HeaderBar from '@/components/HeaderBar/HeaderBar.vue'
 
 </script>
