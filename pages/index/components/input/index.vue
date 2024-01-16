@@ -7,7 +7,7 @@
 </template>
 
 <script lang="ts" setup>
-import WInput from '@texturered/eco-vue-js/dist/components/Input/WInput.vue'
+import WInput from 'eco-vue-js/dist/components/Input/WInput.vue'
 
 definePageMeta({
   title: 'Input',

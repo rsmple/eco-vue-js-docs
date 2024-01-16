@@ -7,6 +7,6 @@
 </template>
 
 <script lang="ts" setup>
-import WNavBar from '@texturered/eco-vue-js/dist/components/Nav/WNavBar.vue'
+import WNavBar from 'eco-vue-js/dist/components/Nav/WNavBar.vue'
 
 </script>

@@ -1,6 +1,6 @@
 import {computed} from 'vue'
 import {useRoute, useRouter} from 'vue-router'
-import {debounce} from '@texturered/eco-vue-js/dist/utils/utils'
+import {debounce} from 'eco-vue-js/dist/utils/utils'
 
 export const useFilterString = (queryKey: string) => {
   const route = useRoute()

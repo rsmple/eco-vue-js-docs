@@ -24,7 +24,7 @@
 </template>
 
 <script lang="ts" setup>
-import WHeaderBar from '@texturered/eco-vue-js/dist/components/HeaderBar/WHeaderBar.vue'
+import WHeaderBar from 'eco-vue-js/dist/components/HeaderBar/WHeaderBar.vue'
 import {eventEmitter} from '@/utils/EventEmitter'
 import {useFilterString} from '@/components/Filter/useFilterString'
 

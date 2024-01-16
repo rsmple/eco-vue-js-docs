@@ -22,9 +22,9 @@
 </template>
 
 <script setup lang="ts">
-import WNotify from '@texturered/eco-vue-js/dist/components/Notify/WNotify.vue'
-import WModal from '@texturered/eco-vue-js/dist/components/Modal/WModal.vue'
-import WTooltipContainer from '@texturered/eco-vue-js/dist/components/Tooltip/WTooltipContainer.vue'
+import WNotify from 'eco-vue-js/dist/components/Notify/WNotify.vue'
+import WModal from 'eco-vue-js/dist/components/Modal/WModal.vue'
+import WTooltipContainer from 'eco-vue-js/dist/components/Tooltip/WTooltipContainer.vue'
 
 const mounted = ref(false)
 

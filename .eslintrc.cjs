@@ -27,8 +27,8 @@ module.exports = {
     'no-restricted-imports': [
       'error',
       {
-        name: '@texturered/eco-vue-js',
-        message: 'Use import @texturered/eco-vue-js/dist/',
+        name: 'eco-vue-js',
+        message: 'Use import eco-vue-js/dist/',
       },
     ],
   },

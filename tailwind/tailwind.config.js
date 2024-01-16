@@ -9,11 +9,11 @@ module.exports = {
     './layouts/**/*.vue',
     './app.vue',
     './error.vue',
-    './node_modules/@texturered/eco-vue-js/dist/components/**/*.vue.js',
-    './node_modules/@texturered/eco-vue-js/dist/components/**/*.js',
+    './node_modules/eco-vue-js/dist/components/**/*.vue.js',
+    './node_modules/eco-vue-js/dist/components/**/*.js',
   ],
   presets: [
-    require('@texturered/eco-vue-js/tailwind-base/index.cjs'),
+    require('eco-vue-js/tailwind-base/index.cjs'),
   ],
   plugins: [
     require('./plugins/default.js'),

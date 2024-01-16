@@ -18,11 +18,11 @@
     "eslint-plugin-unused-imports": "3.0.0",
     "nuxt": "3.8.2",
     "postcss": "8.4.32",
-    "tailwindcss": "3.3.6",
+    "tailwindcss": "3.4.1",
     "vue": "3.3.10",
     "vue-router": "4.2.5"
   },
   "dependencies": {
-    "@texturered/eco-vue-js": "0.3.64"
+    "eco-vue-js": "0.3.69"
   }
 }
