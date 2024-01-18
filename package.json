@@ -23,6 +23,6 @@
     "vue-router": "4.2.5"
   },
   "dependencies": {
-    "eco-vue-js": "0.3.69"
+    "eco-vue-js": "0.3.70"
   }
 }
